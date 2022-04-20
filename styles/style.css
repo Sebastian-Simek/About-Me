@@ -39,7 +39,9 @@ main {
     align-items: center;
     margin-bottom: calc(var(--footer-height));
 }
-
+.hidden{
+    display: none;
+}
 section {
     background-color: var(--color5);
     max-width: 80%;
