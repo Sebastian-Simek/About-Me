@@ -29,7 +29,8 @@ body {
     --footer-height: 30px;
 
     font-family: 'Hubballi', cursive;;
-    background-color: var(--color2);
+    background-color: rgba(247, 236, 221, 0.854);
+
 }
 
 main {
@@ -41,6 +42,12 @@ main {
 }
 .hidden{
     display: none;
+
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 section {
     background-color: var(--color5);
@@ -58,10 +65,11 @@ section {
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-center;
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    background-color: burlywood;
 }
 
 h2 {
