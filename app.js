@@ -1,8 +1,17 @@
-// import functions
 
-// grab DOM elements
+const showButton = document.getElementById('button');
+const animal = document.getElementById('animalDiv');
+const nameBtn = document.getElementById('nameButton');
+const myName = document.getElementById('name');
 
-// set event listeners 
-    // get user input
-    // use user input to update state 
-    // update DOM to reflect the new state
+nameBtn.addEventListener('click', () => {
+    if (myName.textContent === '____') { 
+        myName.textContent = 'Sebastian';
+    } else {
+        myName.textContent = '____';
+    }
+});
+
+showButton.addEventListener('click', () => {
+    animal.classList.toggle('hidden');
+});

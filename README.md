@@ -7,11 +7,26 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 ## Making a plan
 
 1. **Make a drawing of your app. Simple "wireframes"**
+    Made this on my whiteboard:
 1. **Once you have a drawing, name the HTML elements you'll need to realize your vision**
+    # Main 
+    # Section
+    # H1 for name
+    # > blockquote my pronouns
+    # Section
+    # > blockquote for animal
+    # button with button id
+    # div
+    # img with hidden class 
+    # footer
 1. **For each HTML element ask: Why do I need this?**
+    H1 for name, <p> for pronouns, <p> animal, button for js. div to hide img
 1. **Once we know _why_ we need each element, think about how to implement the "Why" as a "How"**
+    we need button to change state of hidden image
 1. **Find all the 'events' (user clicks, form submit, on load etc) in your app. Ask one by one, "What happens when" for each of these events. Does any state change?**
+    when we click button, the image gets unhidden
 1. **Think about how to validate each of your features according to a Definition of Done**
+    when button clicked, img shows up on page
 1. **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
 
 Additional considerations:
