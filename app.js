@@ -10,7 +10,7 @@ nameBtn.addEventListener('click', () => {
     if (myName.textContent === '') { 
         myName.textContent = 'Sebastian';
     } else {
-        myName.textContent = '____';
+        myName.textContent = '';
     }
 });
 showButton.classList.remove('hide');
